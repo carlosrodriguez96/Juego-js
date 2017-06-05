@@ -1,0 +1,92 @@
+<!--
+/**
+*
+*
+**/
+-->
+<html lang="ES">
+
+<head>
+
+	<title></title>
+
+</head>
+<meta charset="utf-8">
+<script src="js/funciones.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+<body>
+	<div class="container-fluid">
+	
+		<div class="page-header">
+  <h1>Juego de Cartas  <small>Sobre contratos </small></h1>
+
+	</div>
+		
+		
+		
+		
+		<div class="row">
+	
+	<div  style="width:1100px;  height:600px;" class="col-xs-12 col-md-10 col-lg-10 well well-sm" >
+		
+		<div  id="cntfr" >
+
+		
+		</div>
+	</div>
+		<div class="col-xs-12 col-md-2 col-lg-2 " ><button type="button" class="btn btn-info">Score <span class="badge" id="score">0</span></button> 
+		<br><hr>
+		<div id="con-result" >
+		<button type="button" class="btn btn-info">Respuestas Correctas <span class="badge" id="res_correct">0</span></button> 
+		<br>
+		<hr>
+		<button type="button" class="btn btn-info">Respuestas Incorrectas <span class="badge" id="res_incorrect">0</span></button>
+		<br>
+		<hr>
+		<button type="button" class="btn btn-info">Respuestas Contestadas <span class="badge" id="t_respuestas">0</span></button>
+		<br>
+		<hr>
+			<button type="button" class="btn btn-info" onclick="location.reload(true);">Volver a jugar </button>
+		</div>
+		
+	</div>
+	</div>
+	</div>
+	<script src="bootstrap/js/jquerymin.js"></script>
+			<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+
+	<center><div class="modal fade" id="myModal" role="dialog">
+ 	 					<div class="modal-dialog modal-lg">              
+                      
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title" id="pregunta"></h4>
+                        </div>
+                        <div class="modal-body">
+			            	<p class="alert alert-info" value="a" id="a" > </p>
+			            	<p class="alert alert-info" value="b" id="b"></p>
+			            	<p  class="alert alert-info" value="c"id="c" ></p>
+			            	<div id="con_respuesta">
+			            		
+			            	</div>
+			            	
+                        </div>
+                        <div class="modal-footer">
+                          <div id="button"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+  
+                </center>
+
+			     
+  
+</div>	
+</body>
+</html>
