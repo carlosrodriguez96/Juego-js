@@ -112,10 +112,10 @@
 	 		g_incorrectas= parseInt(g_incorrectas)+1;
 	 		console.log(g_incorrectas+"g_incorrectas");
 	 		document.getElementById('res_incorrect').innerHTML=g_incorrectas;
-	 		g_puntaje +=parseInt( g_conjunto[idx][g_seleccion]);
-	 		document.getElementById('score').innerHTML=g_puntaje +=parseInt( g_conjunto[idx][g_seleccion]);
-	 		res.innerHTML="";
-	 		console.log("perdio");
+	 		//g_puntaje +=parseInt( g_conjunto[idx][g_seleccion]);
+	 		//document.getElementById('score').innerHTML=g_puntaje +=parseInt( g_conjunto[idx][g_seleccion]);
+	 		//res.innerHTML="";
+	 		//console.log("perdio");
 	 		document.getElementById(g_conjunto[idx][0]).style.display='none';
 	 	};
 	 };
@@ -153,7 +153,7 @@
  	
  }
  /*
- *
+ *función que activa el modal
  */
  function modal()
  {
